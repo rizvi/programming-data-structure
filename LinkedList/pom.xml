@@ -11,6 +11,12 @@
     <dependencies>
 
         <dependency>
+            <groupId>nmn.geeks.driver</groupId>
+            <artifactId>Driver</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
             <groupId>nmn.geeks.logging</groupId>
             <artifactId>Logger</artifactId>
             <version>1.0-SNAPSHOT</version>
