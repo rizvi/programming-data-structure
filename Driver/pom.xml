@@ -25,37 +25,37 @@
         <dependency>
             <groupId>nmn.geeks.linkedlist</groupId>
             <artifactId>LinkedList</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0.0-SNAPSHOT</version>
         </dependency>
 
         <dependency>
             <groupId>nmn.geeks.array</groupId>
             <artifactId>Array</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0.0-SNAPSHOT</version>
         </dependency>
 
         <dependency>
             <groupId>nmn.geeks.queue</groupId>
             <artifactId>Queue</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0.0-SNAPSHOT</version>
         </dependency>
 
         <dependency>
             <groupId>nmn.geeks.stack</groupId>
             <artifactId>Stack</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0.0-SNAPSHOT</version>
         </dependency>
 
         <dependency>
             <groupId>nmn.geeks.string</groupId>
             <artifactId>String</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0.0-SNAPSHOT</version>
         </dependency>
 
         <dependency>
             <groupId>nmn.geeks.logging</groupId>
             <artifactId>Logger</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0.0-SNAPSHOT</version>
         </dependency>
 
     </dependencies>

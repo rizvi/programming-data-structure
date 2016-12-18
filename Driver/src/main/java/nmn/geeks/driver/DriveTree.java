@@ -8,9 +8,9 @@ import nmn.geeks.tree.TreeNode;
 /**
  * Created by naman.nigam on 09/02/16.
  */
-public class DriveTree {
-    public static LoggingDrive loggingDrive = new LoggingDrive();
-    public static void LevelOne(){
+class DriveTree {
+
+    static void LevelOne() {
         TreeNode root1 = new TreeNode(1);
         root1.left = new TreeNode(2);
         root1.right = new TreeNode(3);
@@ -29,15 +29,15 @@ public class DriveTree {
          * http://www.geeksforgeeks.org/check-if-leaf-traversal-of-two-binary-trees-is-same/
          */
         if (LeafOrderTraversal.isSame(root1, root2))
-            loggingDrive.logger.info("Same");
+            LoggingDrive.logger.info("Same");
         else
-            loggingDrive.logger.info("Not Same");
+            LoggingDrive.logger.info("Not Same");
 
         AllowedDriver.nextProblem();
-        /***
+        /**
          * http://www.geeksforgeeks.org/get-level-of-a-node-in-a-binary-tree/
          */
-        loggingDrive.logger.info(NodeLevel.getLevel(root1,3));
+        LoggingDrive.logger.info(NodeLevel.getLevel(root1, 3));
 
     }
 }

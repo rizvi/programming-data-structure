@@ -5,14 +5,6 @@ import nmn.geeks.logger.LoggingDrive;
  * Created by naman.nigam on 08/02/16.
  */
 public class AllowedDriver {
-    static DriveArray driveArray = new DriveArray();
-    static DriveGraph driveGraph = new DriveGraph();
-    static DriveLinkedList driveLinkedList = new DriveLinkedList();
-    static DriveString driveString = new DriveString();
-    static DriveTree driveTree = new DriveTree();
-    static DriveStack driveStack = new DriveStack();
-    static DriveQueue driveQueue = new DriveQueue();
-    static LoggingDrive loggingDrive = new LoggingDrive();
 
     /***
      * Method to run every bit of code
@@ -20,42 +12,42 @@ public class AllowedDriver {
      * @param args not passed as of now
      */
     public static void main(String[] args) {
-        loggingDrive.loggingOutput();
-        driveArray.LevelOne();
+        LoggingDrive.loggingOutput();
+        DriveArray.LevelOne();
         nextModule();
-        driveGraph.LevelOne();
+        DriveGraph.LevelOne();
         nextModule();
-        driveLinkedList.LevelOne();
+        DriveLinkedList.LevelOne();
         nextModule();
-        driveQueue.LevelOne();
+        DriveQueue.LevelOne();
         nextModule();
-        driveStack.LevelOne();
+        DriveStack.LevelOne();
         nextModule();
-        driveString.LevelOne();
+        DriveString.LevelOne();
         nextModule();
-        driveTree.LevelOne();
+        DriveTree.LevelOne();
         nextLevel();
     }
 
     /***
      * Divider between output from different problems
      */
-    public static void nextProblem() {
-        loggingDrive.logger.info("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+    static void nextProblem() {
+        LoggingDrive.logger.info("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
     }
 
 
     /***
      * Divider between output from different modules
      */
-    public static void nextModule() {
-        loggingDrive.logger.info("=================================================================");
+    private static void nextModule() {
+        LoggingDrive.logger.info("=================================================================");
     }
 
     /***
      * Divider between different levels
      */
-    public static void nextLevel() {
-        loggingDrive.logger.info("-----------------------------------------------------------------");
+    private static void nextLevel() {
+        LoggingDrive.logger.info("-----------------------------------------------------------------");
     }
 }

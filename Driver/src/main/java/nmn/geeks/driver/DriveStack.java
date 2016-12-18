@@ -5,10 +5,9 @@ import nmn.geeks.stack.StackCustom;
 /**
  * Created by naman.nigam on 09/02/16.
  */
-public class DriveStack {
+class DriveStack {
 
-
-    public static void LevelOne(){
+    static void LevelOne() {
 
         StackCustom stackCustom = new StackCustom();
         stackCustom.push(23);
@@ -19,12 +18,7 @@ public class DriveStack {
         stackCustom.push(3);
         stackCustom.push(2);
 
-        /***
-         *
-         */
-
         AllowedDriver.nextProblem();
-
 
     }
 }
