@@ -16,8 +16,8 @@
 
     <dependencies>
         <dependency>
-            <groupId>nmn.geeks.tree</groupId>
-            <artifactId>Tree</artifactId>
+            <groupId>nmn.geeks.array</groupId>
+            <artifactId>Array</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
         <dependency>
@@ -28,11 +28,6 @@
         <dependency>
             <groupId>nmn.geeks.linkedlist</groupId>
             <artifactId>LinkedList</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>nmn.geeks.array</groupId>
-            <artifactId>Array</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
         <dependency>
@@ -51,6 +46,11 @@
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
         <dependency>
+            <groupId>nmn.geeks.tree</groupId>
+            <artifactId>Tree</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
             <groupId>nmn.geeks.logging</groupId>
             <artifactId>Logger</artifactId>
             <version>1.0.0-SNAPSHOT</version>
@@ -58,7 +58,6 @@
     </dependencies>
 
     <build>
-
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
