@@ -4,7 +4,7 @@ package nmn.geeks.linkedlist;
  * Created by naman.nigam on 09/02/16.
  */
 public class LinkedListNode {
-    public int data;
+    int data;
     public LinkedListNode next;
 
     // Constructor to create a new node

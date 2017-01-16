@@ -1,6 +1,8 @@
 package nmn.geeks.driver;
+
 import nmn.geeks.logger.LoggingDrive;
 
+import static nmn.geeks.driver.Print.*;
 /**
  * Created by naman.nigam on 08/02/16.
  */
@@ -13,6 +15,10 @@ public class AllowedDriver {
      */
     public static void main(String[] args) {
         LoggingDrive.loggingOutput();
+        levelOne();
+    }
+
+    private static void levelOne() {
         DriveArray.LevelOne();
         nextModule();
         DriveGraph.LevelOne();
@@ -29,25 +35,20 @@ public class AllowedDriver {
         nextLevel();
     }
 
-    /***
-     * Divider between output from different problems
-     */
-    static void nextProblem() {
-        LoggingDrive.logger.info("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+    private static void levelTwo() {
+
     }
 
+    private static void levelThree() {
 
-    /***
-     * Divider between output from different modules
-     */
-    private static void nextModule() {
-        LoggingDrive.logger.info("=================================================================");
     }
 
-    /***
-     * Divider between different levels
-     */
-    private static void nextLevel() {
-        LoggingDrive.logger.info("-----------------------------------------------------------------");
+    private static void levelFour() {
+
     }
+
+    private static void levelFive() {
+
+    }
+
 }

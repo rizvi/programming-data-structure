@@ -4,7 +4,6 @@ import nmn.geeks.tree.LeafOrderTraversal;
 import nmn.geeks.tree.NodeLevel;
 import nmn.geeks.tree.TreeNode;
 
-import static nmn.geeks.driver.Print.*;
 import static nmn.geeks.logger.LoggingDrive.*;
 /**
  * Created by naman.nigam on 09/02/16.
@@ -26,19 +25,18 @@ class DriveTree {
         root2.right.left = new TreeNode(6);
         root2.right.right = new TreeNode(7);
 
-        /**
+        /***
          * http://www.geeksforgeeks.org/check-if-leaf-traversal-of-two-binary-trees-is-same/
          */
-        if (LeafOrderTraversal.isSame(root1, root2)) {
-            logger.info("Same");
-        } else {
-            logger.info("Not Same");
-        }
-        nextProblem();
+        if (LeafOrderTraversal.isSame(root1, root2))
+            LoggingDrive.logger.info("Same");
+        else
+            LoggingDrive.logger.info("Not Same");
+
+        AllowedDriver.nextProblem();
         /**
          * http://www.geeksforgeeks.org/get-level-of-a-node-in-a-binary-tree/
          */
         logger.info(NodeLevel.getLevel(root1, 3));
-
     }
 }

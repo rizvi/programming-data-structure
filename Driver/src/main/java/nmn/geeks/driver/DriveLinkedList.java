@@ -6,6 +6,8 @@ import nmn.geeks.linkedlist.PrintList;
 import nmn.geeks.linkedlist.RearrangeInPlace;
 import java.util.LinkedList;
 
+import static nmn.geeks.driver.Print.*;
+
 /**
  * Created by naman.nigam on 09/02/16.
  */
@@ -13,7 +15,7 @@ class DriveLinkedList {
 
     static void LevelOne() {
 
-        /** http://www.geeksforgeeks.org/compare-two-strings-represented-as-linked-lists */
+        /** http://www.geeksforgeeks.org/compare-two-strings-represented-as-linked-lists} */
         LinkedList<String> stringList1 = new LinkedList<>();
         stringList1.add("g");
         stringList1.add("e");
@@ -28,8 +30,7 @@ class DriveLinkedList {
         stringList2.add("s");
         CompareTwoStringListLexicographically.compareLinkedList(stringList1, stringList2);
 
-        AllowedDriver.nextProblem();
-
+        nextProblem();
 
         LinkedListNode list = new LinkedListNode(0);
         LinkedListNode.head = new LinkedListNode(1);

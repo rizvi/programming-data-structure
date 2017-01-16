@@ -1,13 +1,11 @@
 package nmn.geeks.linkedlist;
 
-import nmn.geeks.logger.LoggingDrive;
+import static nmn.geeks.logger.LoggingDrive.*;
 
 /**
  * Created by naman.nigam on 09/02/16.
  */
 public class RearrangeInPlace {
-
-    static LoggingDrive loggingDrive = new LoggingDrive();
 
     public static void rearrange(LinkedListNode LinkedListNode) {
         /***
@@ -56,6 +54,6 @@ public class RearrangeInPlace {
 
         // Assign the head of the new list to head pointer
         LinkedListNode = LinkedListNode.next;
-        loggingDrive.logger.info("Linked List Rearranged In Place!");
+        logger.info("Linked List Rearranged In Place!");
     }
 }

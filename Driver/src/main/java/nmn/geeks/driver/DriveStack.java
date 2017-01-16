@@ -2,6 +2,8 @@ package nmn.geeks.driver;
 
 import nmn.geeks.stack.StackCustom;
 
+import static nmn.geeks.driver.Print.*;
+
 /**
  * Created by naman.nigam on 09/02/16.
  */
@@ -18,7 +20,7 @@ class DriveStack {
         stackCustom.push(3);
         stackCustom.push(2);
 
-        AllowedDriver.nextProblem();
+        nextProblem();
 
     }
 }
